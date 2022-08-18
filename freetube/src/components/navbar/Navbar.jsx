@@ -6,12 +6,12 @@ export const Navbar = () => {
         <div className='navbar'>
             <div className='branding'>
                 <Link to='/'>
-                    FreeTUBE
+                    <img src="/FreeTube.png" width='100' alt="" className="brand" />
                 </Link>
             </div>
             <div className='searchContainer'>
                 <input type='search' className='searchBar' />
-                <div><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div><i className="fa-solid fa-magnifying-glass"></i></div>
             </div>
             <div className='loginConatiner'>
                 <Link to='/login'>
