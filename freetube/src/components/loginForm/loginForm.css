@@ -1,0 +1,68 @@
+.authFormConatiner {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.authForm {
+    width: 400px;
+    height: fit-content;
+    background-color: white;
+    box-shadow: var(--base__shadow);
+    padding: 30px;
+    border-radius: 10px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.authTitle {
+    font-size: x-large;
+    font-weight: 700;
+    padding: 0 10px;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.authForm input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid var(--freetube__gray);
+    border-radius: 5px;
+}
+
+.authDesc {
+    font-size: small;
+    margin-top: -20px;
+    padding: 0 10px;
+
+}
+
+.authActionConatiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.redirectAuth {
+    font-size: smaller;
+}
+
+.authLink {
+    color: blue;
+}
+
+.authButton {
+    background-color: var(--base__color);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+}

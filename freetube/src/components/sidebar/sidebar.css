@@ -1,0 +1,27 @@
+.sideBar {
+    flex: 1;
+    height: calc(100vh - 70px);
+    position: sticky;
+    top: 70px;
+    left: 0;
+    background-color: white;
+    box-shadow: var(--base__shadow);
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sidebar__List {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.sidebarList__Icon {
+    width: 20px;
+    color: var(--freetube__gray);
+}

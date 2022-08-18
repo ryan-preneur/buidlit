@@ -1,0 +1,15 @@
+.videoListing {
+    flex: 7;
+    background-color: var(--background__gray);
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.videoCard {
+    width: 270px;
+}

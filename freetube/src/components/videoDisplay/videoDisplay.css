@@ -1,0 +1,114 @@
+.videoDisplay {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+    background-color: var(--background__gray);
+}
+
+.videoPlayDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 1000px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: var(--base__shadow);
+}
+
+.videoTitleContainer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.videoLike {
+    color: var(--freetube__gray);
+    cursor: pointer;
+}
+
+.subscribeButton {
+    background-color: var(--base__color);
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.channelDetailsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.channelContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.channelImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.channelName {
+    font-size: large;
+    font-weight: 700;
+}
+
+.channelSubscribers {
+    font-size: small;
+}
+
+.commentSection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.commentsHeading {
+    font-size: large;
+    font-weight: 700;
+}
+
+.commentContainer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.profilePic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.userName {
+    font-size: small;
+    font-weight: 700;
+}
+
+.addCommentContainer {
+    display: flex;
+    justify-content: end;
+}
+
+.addComment {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: var(--base__color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: x-large;
+    font-weight: 500;
+}
