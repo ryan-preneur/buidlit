@@ -43,3 +43,14 @@
     right: 0;
     cursor: pointer;
 }
+
+.videoCard {
+    width: 270px;
+    transition: 1s;
+}
+
+.videoCard:hover {
+    width: 300px;
+    height: 340px;
+    z-index: 5;
+}
