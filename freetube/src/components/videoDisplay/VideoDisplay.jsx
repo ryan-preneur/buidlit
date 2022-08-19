@@ -2,6 +2,15 @@ import React from 'react'
 import './videoDisplay.css'
 
 export const VideoDisplay = () => {
+
+    const likeVideo = (e) => {
+        if (e.target.style.color != 'blue') {
+            e.target.style.color = 'blue';
+        } else {
+            e.target.style.color = 'gray';
+        }
+    }
+
     return (
         <div className='videoDisplay'>
             <video width="1000px"
@@ -11,7 +20,7 @@ export const VideoDisplay = () => {
                     type="video/mp4" />
             </video>
             <div className='videoPlayDetails'>
-                <div className='videoTitleContainer'><div className="videoTitle">Make a FreeTube Clone</div><div className="like"><i className="fa-solid fa-thumbs-up videoLike"></i> &nbsp; Like </div></div>
+                <div className='videoTitleContainer'><div className="videoTitle">Make a FreeTube Clone</div><div className="like"><i className="fa-solid fa-thumbs-up videoLike" onClick={likeVideo}></i> &nbsp; Like </div></div>
                 <div className="videoDescription">First D app for users to freely add and interact with videos on the net.</div>
                 <hr />
                 <div className="channelDetailsContainer">
