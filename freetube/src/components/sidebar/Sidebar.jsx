@@ -1,13 +1,14 @@
 import React from 'react';
 import './sidebar.css';
+import { Link } from 'react-router-dom';
 
 export const Sidebar = () => {
     return (
         <div className='sideBar'>
-            <div className='sidebar__List'><div className='sidebarList__Icon'><i className="fa-solid fa-house"></i></div><div className="w-75">Home</div></div>
+            <Link to='/'><div className='sidebar__List'><div className='sidebarList__Icon'><i className="fa-solid fa-house"></i></div><div className="w-75">Home</div></div></Link>
             <div className='sidebar__List'><div className='sidebarList__Icon'><i className="fa-solid fa-fire"></i></div><div className="w-75">Trending</div></div>
             <div className='sidebar__List'><div className='sidebarList__Icon'><i className="fa-solid fa-folder-plus"></i></div><div className="w-75">Subscriptions</div></div>
-            <div className='sidebar__List'><div className='sidebarList__Icon'><i className="fa-solid fa-tv"></i></div><div className="w-75">My Channel</div></div>
+            <Link to='/mychannel'><div className='sidebar__List'><div className='sidebarList__Icon'><i className="fa-solid fa-tv"></i></div><div className="w-75">My Channel</div></div></Link>
             <div className='sidebar__List'><div className='sidebarList__Icon'><i className="fa-solid fa-bookmark"></i></div><div className="w-75">Saved Videos</div></div>
             <hr />
             <div className='sidebar__List'><div className='sidebarList__Icon'><i className="fa-solid fa-clock"></i></div><div className="w-75">Watch Later</div></div>
