@@ -34,16 +34,20 @@ export const MyChannel = () => {
                         </div>
                         <form action="" className="addVideoForm">
                             <div className="formitem">
+                                <label>Upload Thumbnail</label>
+                                <input type="file" className="uploadvideo" name="thumbNail" />
+                            </div>
+                            <div className="formitem">
                                 <label>Upload Video</label>
-                                <input type="file" className="uploadvideo" />
+                                <input type="file" className="uploadvideo" name="video" />
                             </div>
                             <div className="formitem">
                                 <label>Video Title</label>
-                                <input type="text" className="videoTitle" />
+                                <input type="text" className="videoTitle" name="title" />
                             </div>
                             <div className="formitem">
                                 <label>Video Description</label>
-                                <textarea className="videoDescription" ></textarea>
+                                <textarea className="videoDescription" name="description"></textarea>
                             </div>
                             <div className="submitButtonConatiner">
                                 <button className="submitButton">Submit</button>
